@@ -1,0 +1,25 @@
+body {
+    padding: 1rem;
+    background-color: beige;
+
+    /* Habilidades flexbox */
+
+    display: flex;
+}
+
+.container {
+    background-color: blue
+}
+
+.item {
+    background-color: blueviolet;
+}
+
+ .item-flex {
+    background-color: darkorchid;
+ }
+
+ .item-flex > h2 {
+    color: beige;
+    background-color: black;
+ }
