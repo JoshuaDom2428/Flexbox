@@ -1,0 +1,27 @@
+* {
+    box-sizing: content-box;
+}
+
+
+body {
+    font-family: sans-serif;
+    color: blueviolet;
+    background-color: rgb(43, 226, 171);
+
+}
+
+.container {
+    display: flex;/* tomar todo el ancho posible */
+    display: inline-flex;/* tomar el ancho de los elementos */
+background-color: rgb(255, 187, 0);
+
+}
+
+.item {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    padding-top: 36px;
+    background-color: transparent;
+    border: 2px solid rgb(63, 255, 37);
+}

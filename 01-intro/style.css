@@ -17,6 +17,8 @@ body {
 
  .item-flex {
     background-color: darkorchid;
+
+    display: flex;
  }
 
  .item-flex > h2 {
